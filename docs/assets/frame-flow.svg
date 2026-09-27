@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="670" viewBox="0 0 1200 670">
+<rect width="1200" height="670" fill="#f5f7fb"/>
+<style>text{font-family:Arial,sans-serif;fill:#172337} .title{font-size:30px;font-weight:700}.main{font-size:21px;font-weight:700}.sub{font-size:18px;fill:#42546a}.box{fill:white;stroke:#9babc1;stroke-width:2}.arrow{stroke:#496787;stroke-width:3;fill:none;marker-end:url(#a)}</style>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#496787"/></marker></defs>
+<text x="50" y="57" class="title">От угла к внешнему кадру</text>
+<text x="50" y="90" class="sub">Hinge Lab 2.0-beta.4 · упрощённая схема, не шкала времени</text>
+<rect x="50" y="130" width="300" height="105" rx="15" class="box"/><text x="75" y="168" class="main">Начало складывания</text><text x="75" y="199" class="sub">Сохраняем внутренний кадр</text>
+<path d="M350 182 H415" class="arrow"/>
+<rect x="420" y="130" width="340" height="105" rx="15" class="box"/><text x="445" y="168" class="main">Есть внешний кадр?</text><text x="445" y="199" class="sub">Размер, возраст, контекст</text>
+<path d="M760 182 H825" class="arrow"/><text x="780" y="163" class="sub">Да</text>
+<rect x="830" y="130" width="320" height="105" rx="15" fill="#dcf4ec" stroke="#599780" stroke-width="2"/><text x="855" y="170" class="main">Анимируем снимок</text><text x="855" y="201" class="sub">Геометрия следует за углом</text>
+<path d="M585 235 V300" class="arrow"/><text x="605" y="276" class="sub">Нет</text>
+<rect x="420" y="305" width="340" height="115" rx="15" class="box"/><text x="445" y="341" class="main">Временный перенос</text><text x="445" y="372" class="sub">Задача → внешний дисплей</text><text x="445" y="399" class="sub">Одна попытка снимка</text>
+<path d="M760 360 H988 V240" class="arrow"/><text x="785" y="346" class="sub">Пригодный кадр</text>
+<path d="M585 420 V478" class="arrow"/>
+<rect x="420" y="483" width="340" height="105" rx="15" class="box"/><text x="445" y="520" class="main">Возвращаем задачу</text><text x="445" y="551" class="sub">Ожидание ограничено</text>
+<path d="M760 535 H825" class="arrow"/>
+<rect x="830" y="483" width="320" height="105" rx="15" fill="#fff0e7" stroke="#bd8a68" stroke-width="2"/><text x="850" y="520" class="main">Возврат не подтверждён?</text><text x="850" y="551" class="sub">Останавливаем режим</text>
+<text x="50" y="632" class="sub">Пустой кадр пропускаем. Новый перенос — после безопасного завершения и конечного положения.</text>
+</svg>

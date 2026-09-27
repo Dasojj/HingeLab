@@ -1,0 +1,31 @@
+[
+  {
+    "file": "Apache-2.0.txt",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+    "bytes": 11358
+  },
+  {
+    "file": "SPAKE2-Java-1.1.1-LICENSE",
+    "url": "https://raw.githubusercontent.com/Flyfish233/spake2-java/1.1.1/LICENSE",
+    "bytes": 35148
+  },
+  {
+    "file": "BouncyCastle-LICENSE",
+    "url": "https://raw.githubusercontent.com/bcgit/bc-java/r1rv84/LICENSE.html",
+    "bytes": 1175
+  },
+  {
+    "file": "Elisabeth-LICENSE",
+    "url": "https://raw.githubusercontent.com/cryptography-cafe/curve25519-elisabeth/main/LICENSE",
+    "bytes": 3152
+  },
+  {
+    "file": "GPL-3.0.txt",
+    "url": "https://raw.githubusercontent.com/Flyfish233/spake2-java/1.1.1/LICENSE",
+    "note": "Copy of full GPL text from the exact dependency tag; direct GNU download timed out."
+  },
+  {
+    "file": "Guava-ListenableFuture-source-header.txt",
+    "url": "https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/1.0/listenablefuture-1.0-sources.jar"
+  }
+]

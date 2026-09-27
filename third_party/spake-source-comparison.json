@@ -1,0 +1,14 @@
+[
+  {
+    "file": "com/flyfish233/crypto/spake2/HexUtils.java",
+    "matches_tag_source": true
+  },
+  {
+    "file": "com/flyfish233/crypto/spake2/Spake2Context.java",
+    "matches_tag_source": true
+  },
+  {
+    "file": "com/flyfish233/crypto/spake2/Spake2Role.java",
+    "matches_tag_source": true
+  }
+]

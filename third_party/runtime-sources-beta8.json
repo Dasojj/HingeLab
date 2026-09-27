@@ -1,0 +1,496 @@
+[
+  {
+    "coordinate": "androidx.annotation:annotation:1.8.1",
+    "files": [
+      {
+        "file": "androidx.annotation--annotation-1.8.1.pom",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1.pom",
+        "sha256": "b71225974ec087eb96c25ef6819f55b1c22f530e85ca446ba735fb66ed04ff5c"
+      },
+      {
+        "file": "androidx.annotation--annotation-1.8.1-sources.jar",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1-sources.jar",
+        "sha256": "706eb1c09bbc2ad74bf0f173e1fe77ac46fd7945efd9b6409053fb3f8763eff2"
+      }
+    ]
+  },
+  {
+    "coordinate": "androidx.annotation:annotation-experimental:1.1.0",
+    "files": [
+      {
+        "file": "androidx.annotation--annotation-experimental-1.1.0.pom",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-experimental/1.1.0/annotation-experimental-1.1.0.pom",
+        "sha256": "550a6601e1af47cf99501cc6cc15d1ebe9cef17b51e5dd58b6ab6c23568ef7a9"
+      },
+      {
+        "file": "androidx.annotation--annotation-experimental-1.1.0-sources.jar",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-experimental/1.1.0/annotation-experimental-1.1.0-sources.jar",
+        "sha256": "7ea8c98ebd649ee4c0a74b19e1e81ac5f4469be5a12555f288083f1efd4f29d9"
+      }
+    ]
+  },
+  {
+    "coordinate": "androidx.annotation:annotation-jvm:1.8.1",
+    "files": [
+      {
+        "file": "androidx.annotation--annotation-jvm-1.8.1.pom",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1.pom",
+        "sha256": "d49203733aa6fae046c3a3de4e796eed347595755486a64273989844759750b4"
+      },
+      {
+        "file": "androidx.annotation--annotation-jvm-1.8.1-sources.jar",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar",
+        "sha256": "5add69d7bb907ade52823bf4b15730a1a32cfce6657bfbe7eb865b00107a6369"
+      }
+    ]
+  },
+  {
+    "coordinate": "androidx.arch.core:core-common:2.1.0",
+    "files": [
+      {
+        "file": "androidx.arch.core--core-common-2.1.0.pom",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/arch/core/core-common/2.1.0/core-common-2.1.0.pom",
+        "sha256": "83bbb3960eaabc600ac366c94cb59414e441532a1d6aa9388b0b8bfface5cf01"
+      },
+      {
+        "file": "androidx.arch.core--core-common-2.1.0-sources.jar",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/arch/core/core-common/2.1.0/core-common-2.1.0-sources.jar",
+        "sha256": "01ef2736c9b688658d7446e8396099ff0c598d9a7e753131d566f953270c5878"
+      }
+    ]
+  },
+  {
+    "coordinate": "androidx.arch.core:core-runtime:2.1.0",
+    "files": [
+      {
+        "file": "androidx.arch.core--core-runtime-2.1.0.pom",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/arch/core/core-runtime/2.1.0/core-runtime-2.1.0.pom",
+        "sha256": "c0c4ed0160cd2ca18390015de8b392b697c173327c6b2c0947d4e62f6958c05d"
+      },
+      {
+        "file": "androidx.arch.core--core-runtime-2.1.0-sources.jar",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/arch/core/core-runtime/2.1.0/core-runtime-2.1.0-sources.jar",
+        "sha256": "913acdee357814e814745466a46a793e8ad7410086ba4548458b83cd6a98424b"
+      }
+    ]
+  },
+  {
+    "coordinate": "androidx.collection:collection:1.0.0",
+    "files": [
+      {
+        "file": "androidx.collection--collection-1.0.0.pom",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.0.0/collection-1.0.0.pom",
+        "sha256": "a7913a5275ad68e555d2612ebe8c14c367b153e14ca48a1872a64899020e54ef"
+      },
+      {
+        "file": "androidx.collection--collection-1.0.0-sources.jar",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.0.0/collection-1.0.0-sources.jar",
+        "sha256": "3dcefe7a84308582986dda5e2cf66fd3bd279f076e3a58c377e6ed66d5233b9d"
+      }
+    ]
+  },
+  {
+    "coordinate": "androidx.concurrent:concurrent-futures:1.0.0",
+    "files": [
+      {
+        "file": "androidx.concurrent--concurrent-futures-1.0.0.pom",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/concurrent/concurrent-futures/1.0.0/concurrent-futures-1.0.0.pom",
+        "sha256": "4505b9a5e30a9418b59a9ad6702c3e4193aea6e691a3d03cf220c7640ad083e2"
+      },
+      {
+        "file": "androidx.concurrent--concurrent-futures-1.0.0-sources.jar",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/concurrent/concurrent-futures/1.0.0/concurrent-futures-1.0.0-sources.jar",
+        "sha256": "510037347fda5081179db4e72a1699df61f290692a439092b281c27ea2b16c17"
+      }
+    ]
+  },
+  {
+    "coordinate": "androidx.core:core:1.7.0",
+    "files": [
+      {
+        "file": "androidx.core--core-1.7.0.pom",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.7.0/core-1.7.0.pom",
+        "sha256": "6c4e7ff09a769cf49ec56705c02ca5caaa25fb2b035e2a3135f1d9787c61702c"
+      },
+      {
+        "file": "androidx.core--core-1.7.0-sources.jar",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.7.0/core-1.7.0-sources.jar",
+        "sha256": "5421e943026bafe2b43da3fe87eb64091dcdb40ad1ce2026d0014c1a0e86686c"
+      }
+    ]
+  },
+  {
+    "coordinate": "androidx.documentfile:documentfile:1.1.0",
+    "files": [
+      {
+        "file": "androidx.documentfile--documentfile-1.1.0.pom",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/documentfile/documentfile/1.1.0/documentfile-1.1.0.pom",
+        "sha256": "f3d68f5cc51f74d5415eefa617b5e6539aa89a941525762940a812e78415e4a8"
+      },
+      {
+        "file": "androidx.documentfile--documentfile-1.1.0-sources.jar",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/documentfile/documentfile/1.1.0/documentfile-1.1.0-sources.jar",
+        "sha256": "d39120d0f88be611b858b76986e16925e30cb59bf2b8c5dca6b5e12f99a19fdc"
+      }
+    ]
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-common:2.3.1",
+    "files": [
+      {
+        "file": "androidx.lifecycle--lifecycle-common-2.3.1.pom",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/2.3.1/lifecycle-common-2.3.1.pom",
+        "sha256": "8cd23d889a14095c6ce16840d29b1a6388fa5e115144c1309d4d6d469c1bc351"
+      },
+      {
+        "file": "androidx.lifecycle--lifecycle-common-2.3.1-sources.jar",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/2.3.1/lifecycle-common-2.3.1-sources.jar",
+        "sha256": "68ad8199336509f3daa27a9dedb61f6b770d5f0b712f064e02fefa1a2aafad6a"
+      }
+    ]
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-runtime:2.3.1",
+    "files": [
+      {
+        "file": "androidx.lifecycle--lifecycle-runtime-2.3.1.pom",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime/2.3.1/lifecycle-runtime-2.3.1.pom",
+        "sha256": "b4442a84fc397edb2e908a1fdf713c6ae7d3a87641a09ee13d10ec8ee10b331f"
+      },
+      {
+        "file": "androidx.lifecycle--lifecycle-runtime-2.3.1-sources.jar",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime/2.3.1/lifecycle-runtime-2.3.1-sources.jar",
+        "sha256": "a1757f478939a9ae47e3a005f5c3ce051e50859d54478e3b931fdb06738269a9"
+      }
+    ]
+  },
+  {
+    "coordinate": "androidx.versionedparcelable:versionedparcelable:1.1.1",
+    "files": [
+      {
+        "file": "androidx.versionedparcelable--versionedparcelable-1.1.1.pom",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/versionedparcelable/versionedparcelable/1.1.1/versionedparcelable-1.1.1.pom",
+        "sha256": "5f51e65873ca612de3838fa90d2ee95b8d040efd31b9c390a19bf94d615cdb2f"
+      },
+      {
+        "file": "androidx.versionedparcelable--versionedparcelable-1.1.1-sources.jar",
+        "url": "https://dl.google.com/dl/android/maven2/androidx/versionedparcelable/versionedparcelable/1.1.1/versionedparcelable-1.1.1-sources.jar",
+        "sha256": "135016af471acf4cd9583d36ceb779710c6b46812ccaaef7c526d5d60eae6b0b"
+      }
+    ]
+  },
+  {
+    "coordinate": "cafe.cryptography:curve25519-elisabeth:0.1.0",
+    "files": [
+      {
+        "file": "cafe.cryptography--curve25519-elisabeth-0.1.0.pom",
+        "url": "https://repo.maven.apache.org/maven2/cafe/cryptography/curve25519-elisabeth/0.1.0/curve25519-elisabeth-0.1.0.pom",
+        "sha256": "2bb20ef6ea8889aedc7fa426299243c0600fb2599b6de65a1560d4aa2ca688ef"
+      },
+      {
+        "file": "cafe.cryptography--curve25519-elisabeth-0.1.0-sources.jar",
+        "url": "https://repo.maven.apache.org/maven2/cafe/cryptography/curve25519-elisabeth/0.1.0/curve25519-elisabeth-0.1.0-sources.jar",
+        "sha256": "0ca1baeb82b36073f62698bfd28ea6683183be44fb92fb82e640afa5c06fb2fd"
+      }
+    ]
+  },
+  {
+    "coordinate": "cafe.cryptography:ed25519-elisabeth:0.1.0",
+    "files": [
+      {
+        "file": "cafe.cryptography--ed25519-elisabeth-0.1.0.pom",
+        "url": "https://repo.maven.apache.org/maven2/cafe/cryptography/ed25519-elisabeth/0.1.0/ed25519-elisabeth-0.1.0.pom",
+        "sha256": "dfcdb6a20f00b4f0f373adb4b506cbc3e059ebdb57574ca4059329f7f7e7082c"
+      },
+      {
+        "file": "cafe.cryptography--ed25519-elisabeth-0.1.0-sources.jar",
+        "url": "https://repo.maven.apache.org/maven2/cafe/cryptography/ed25519-elisabeth/0.1.0/ed25519-elisabeth-0.1.0-sources.jar",
+        "sha256": "90ca1b91f187bc65982fc6fcae9ad44bbbcfbe791699ab629c14b61257d44cb6"
+      }
+    ]
+  },
+  {
+    "coordinate": "com.flyfishxu:kadb:2.1.4",
+    "files": [
+      {
+        "file": "com.flyfishxu--kadb-2.1.4.pom",
+        "url": "https://repo.maven.apache.org/maven2/com/flyfishxu/kadb/2.1.4/kadb-2.1.4.pom",
+        "sha256": "95a834316d6d3ca76df0bee1a5668a3ec9c0ac73e0161e214edfb4992e1f86b6"
+      },
+      {
+        "file": "com.flyfishxu--kadb-2.1.4-sources.jar",
+        "url": "https://repo.maven.apache.org/maven2/com/flyfishxu/kadb/2.1.4/kadb-2.1.4-sources.jar",
+        "sha256": "0de38554253a4556876e58e7a7ccf767fae15fdf95584b1f78c22a52c9cc0c82"
+      }
+    ]
+  },
+  {
+    "coordinate": "com.flyfishxu:kadb-android:2.1.4",
+    "files": [
+      {
+        "file": "com.flyfishxu--kadb-android-2.1.4.pom",
+        "url": "https://repo.maven.apache.org/maven2/com/flyfishxu/kadb-android/2.1.4/kadb-android-2.1.4.pom",
+        "sha256": "4d33e351311b66f8c32714b152693d549377a59205cdc3192084180d8598d9a7"
+      },
+      {
+        "file": "com.flyfishxu--kadb-android-2.1.4-sources.jar",
+        "url": "https://repo.maven.apache.org/maven2/com/flyfishxu/kadb-android/2.1.4/kadb-android-2.1.4-sources.jar",
+        "sha256": "6da1cfbcd60ee069730dd8e4485ea39b277caf7f2f4593b72616e02d3220b3b8"
+      }
+    ]
+  },
+  {
+    "coordinate": "com.flyfishxu:kadb-mdns:2.1.4",
+    "files": [
+      {
+        "file": "com.flyfishxu--kadb-mdns-2.1.4.pom",
+        "url": "https://repo.maven.apache.org/maven2/com/flyfishxu/kadb-mdns/2.1.4/kadb-mdns-2.1.4.pom",
+        "sha256": "d0a22ba49922c67a99d19f320543c6c1bca32230b31316063a277f328d0c85ae"
+      },
+      {
+        "file": "com.flyfishxu--kadb-mdns-2.1.4-sources.jar",
+        "url": "https://repo.maven.apache.org/maven2/com/flyfishxu/kadb-mdns/2.1.4/kadb-mdns-2.1.4-sources.jar",
+        "sha256": "a1e607d8362862bec61c4493e665e62e4e8ca3df42d52b9e5e26c3ef92ccc0a9"
+      }
+    ]
+  },
+  {
+    "coordinate": "com.flyfishxu:kadb-mdns-android:2.1.4",
+    "files": [
+      {
+        "file": "com.flyfishxu--kadb-mdns-android-2.1.4.pom",
+        "url": "https://repo.maven.apache.org/maven2/com/flyfishxu/kadb-mdns-android/2.1.4/kadb-mdns-android-2.1.4.pom",
+        "sha256": "bc7315ea8441656c8e2705c3682c95d9db0979865bfe5b9f1e654b1afe976ea8"
+      },
+      {
+        "file": "com.flyfishxu--kadb-mdns-android-2.1.4-sources.jar",
+        "url": "https://repo.maven.apache.org/maven2/com/flyfishxu/kadb-mdns-android/2.1.4/kadb-mdns-android-2.1.4-sources.jar",
+        "sha256": "61075027beed497b7665c05b383d222984d32ee95fc31ae85b212afba76d846a"
+      }
+    ]
+  },
+  {
+    "coordinate": "com.github.Flyfish233:spake2-java:1.1.1",
+    "files": [
+      {
+        "file": "com.github.Flyfish233--spake2-java-1.1.1.pom",
+        "url": "https://jitpack.io/com/github/Flyfish233/spake2-java/1.1.1/spake2-java-1.1.1.pom",
+        "sha256": "3ad42618b40d078fa90ccae5c176b07c39e148cf407fcdb43c46e3effc20b7e0"
+      },
+      {
+        "file": "com.github.Flyfish233--spake2-java-1.1.1-sources.jar",
+        "url": "https://jitpack.io/com/github/Flyfish233/spake2-java/1.1.1/spake2-java-1.1.1-sources.jar",
+        "sha256": "d4bc25723647f7b357c4115a3caced4f877e64c068ce9b0eef37676dc7645b45"
+      }
+    ]
+  },
+  {
+    "coordinate": "com.google.guava:listenablefuture:1.0",
+    "files": [
+      {
+        "file": "com.google.guava--listenablefuture-1.0.pom",
+        "url": "https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/1.0/listenablefuture-1.0.pom",
+        "sha256": "53873caf26bc1ed8a567ea6c939ab2aaa3f47a5e32d5cade95ddf5080d23238a"
+      },
+      {
+        "file": "com.google.guava--listenablefuture-1.0-sources.jar",
+        "url": "https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/1.0/listenablefuture-1.0-sources.jar",
+        "sha256": "3d1bd8d4a39b293612a40e547ec51d9ce34fa638d7adeae83871cdbe2923b161"
+      }
+    ]
+  },
+  {
+    "coordinate": "com.squareup.okio:okio:3.17.0",
+    "files": [
+      {
+        "file": "com.squareup.okio--okio-3.17.0.pom",
+        "url": "https://repo.maven.apache.org/maven2/com/squareup/okio/okio/3.17.0/okio-3.17.0.pom",
+        "sha256": "15b4831e84f5ca52dd37c1d6e1709a2907e2e9bc2a9c3ea13f282031de0c0135"
+      },
+      {
+        "file": "com.squareup.okio--okio-3.17.0-sources.jar",
+        "url": "https://repo.maven.apache.org/maven2/com/squareup/okio/okio/3.17.0/okio-3.17.0-sources.jar",
+        "sha256": "3d7ea54e4974b1cc8ea408305190303cd0101d7f2b5596d1519e83315c377f42"
+      }
+    ]
+  },
+  {
+    "coordinate": "com.squareup.okio:okio-jvm:3.17.0",
+    "files": [
+      {
+        "file": "com.squareup.okio--okio-jvm-3.17.0.pom",
+        "url": "https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.17.0/okio-jvm-3.17.0.pom",
+        "sha256": "e4e44237a66f4091bc0f5b1d5a2bbe228ac014ab3c0f918cd6fc02ba31999030"
+      },
+      {
+        "file": "com.squareup.okio--okio-jvm-3.17.0-sources.jar",
+        "url": "https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.17.0/okio-jvm-3.17.0-sources.jar",
+        "sha256": "5603dfecfe4c71b36d6a591616be345fdd9d41a0a63553a3bd883d5ab6ee09a6"
+      }
+    ]
+  },
+  {
+    "coordinate": "org.bouncycastle:bcpkix-jdk18on:1.84",
+    "files": [
+      {
+        "file": "org.bouncycastle--bcpkix-jdk18on-1.84.pom",
+        "url": "https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.84/bcpkix-jdk18on-1.84.pom",
+        "sha256": "c1281ed5eaf8f3e405557e7a5205cb6f3cdf753f84de9b1a815c75ebdeb9992a"
+      },
+      {
+        "file": "org.bouncycastle--bcpkix-jdk18on-1.84-sources.jar",
+        "url": "https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.84/bcpkix-jdk18on-1.84-sources.jar",
+        "sha256": "fe00c12243c28ead30ad6c7742be40ff005ab29f493c350b83b637fe4a9b5597"
+      }
+    ]
+  },
+  {
+    "coordinate": "org.bouncycastle:bcprov-jdk18on:1.84",
+    "files": [
+      {
+        "file": "org.bouncycastle--bcprov-jdk18on-1.84.pom",
+        "url": "https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.84/bcprov-jdk18on-1.84.pom",
+        "sha256": "ce7abb4a91ba5d2a73fdf17a3df4762e3605a0392cc7983ef2f1ae16cd384cc3"
+      },
+      {
+        "file": "org.bouncycastle--bcprov-jdk18on-1.84-sources.jar",
+        "url": "https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.84/bcprov-jdk18on-1.84-sources.jar",
+        "sha256": "e5f04550f7740e588edcbd1654c59277cd7ee8725d8b674e44f7f8f4b9c5674a"
+      }
+    ]
+  },
+  {
+    "coordinate": "org.bouncycastle:bcutil-jdk18on:1.84",
+    "files": [
+      {
+        "file": "org.bouncycastle--bcutil-jdk18on-1.84.pom",
+        "url": "https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.84/bcutil-jdk18on-1.84.pom",
+        "sha256": "0b0cb81a65ee1737d51286350a9e56489336b8f9908198febd0494243eea2978"
+      },
+      {
+        "file": "org.bouncycastle--bcutil-jdk18on-1.84-sources.jar",
+        "url": "https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.84/bcutil-jdk18on-1.84-sources.jar",
+        "sha256": "192b719273dc33e8fd6edc3b30b126760b6740cf2e1ac3cc7cf845c7ffec9f2b"
+      }
+    ]
+  },
+  {
+    "coordinate": "org.jetbrains:annotations:23.0.0",
+    "files": [
+      {
+        "file": "org.jetbrains--annotations-23.0.0.pom",
+        "url": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/23.0.0/annotations-23.0.0.pom",
+        "sha256": "c9490f655132328df2cfbcfdf743f53fc3916d6c1d10437175a6ca6e3a67771c"
+      },
+      {
+        "file": "org.jetbrains--annotations-23.0.0-sources.jar",
+        "url": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/23.0.0/annotations-23.0.0-sources.jar",
+        "sha256": "ff2309b42f7584520497bb48bc609aca04c9886cf48708f14be83f00423ec144"
+      }
+    ]
+  },
+  {
+    "coordinate": "org.jetbrains.kotlin:kotlin-stdlib:2.4.0",
+    "files": [
+      {
+        "file": "org.jetbrains.kotlin--kotlin-stdlib-2.4.0.pom",
+        "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.4.0/kotlin-stdlib-2.4.0.pom",
+        "sha256": "8194ff79a9ee24a7fa3f74a6b179c04a1859de8b987a4f0983056e59451721de"
+      },
+      {
+        "file": "org.jetbrains.kotlin--kotlin-stdlib-2.4.0-sources.jar",
+        "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.4.0/kotlin-stdlib-2.4.0-sources.jar",
+        "sha256": "bca27f834e278d08c1b85a40e636450867e8251c284fd4c24e9879bb99e301c5"
+      }
+    ]
+  },
+  {
+    "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.11.0",
+    "files": [
+      {
+        "file": "org.jetbrains.kotlinx--kotlinx-coroutines-android-1.11.0.pom",
+        "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-android/1.11.0/kotlinx-coroutines-android-1.11.0.pom",
+        "sha256": "224567420d3e0ed5fef40f789fded45dfd51b162319e28d77d3c9a8dec4821b8"
+      },
+      {
+        "file": "org.jetbrains.kotlinx--kotlinx-coroutines-android-1.11.0-sources.jar",
+        "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-android/1.11.0/kotlinx-coroutines-android-1.11.0-sources.jar",
+        "sha256": "d2760d65fc99c28d140b345163560926975cfe6ca36386c8964041f86eb2f4b6"
+      }
+    ]
+  },
+  {
+    "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.11.0",
+    "files": [
+      {
+        "file": "org.jetbrains.kotlinx--kotlinx-coroutines-bom-1.11.0.pom",
+        "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.11.0/kotlinx-coroutines-bom-1.11.0.pom",
+        "sha256": "f65860bce58a2bfadf05fdc516d38333421f0e387fef87e24449c0394c80d254"
+      },
+      {
+        "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.11.0/kotlinx-coroutines-bom-1.11.0-sources.jar",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  {
+    "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0",
+    "files": [
+      {
+        "file": "org.jetbrains.kotlinx--kotlinx-coroutines-core-1.11.0.pom",
+        "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.11.0/kotlinx-coroutines-core-1.11.0.pom",
+        "sha256": "41b6e78c1b0d11bc99de795390df9e4ece64dc113f482d6e308f1b7a421c1d30"
+      },
+      {
+        "file": "org.jetbrains.kotlinx--kotlinx-coroutines-core-1.11.0-sources.jar",
+        "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.11.0/kotlinx-coroutines-core-1.11.0-sources.jar",
+        "sha256": "42b1e26bc792fc3d8ba702ef5bd166adcd6c8350f377f639fb7d2e01b3366e3e"
+      }
+    ]
+  },
+  {
+    "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.11.0",
+    "files": [
+      {
+        "file": "org.jetbrains.kotlinx--kotlinx-coroutines-core-jvm-1.11.0.pom",
+        "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.11.0/kotlinx-coroutines-core-jvm-1.11.0.pom",
+        "sha256": "dd54b97aa3fab91fc24f5df2916c22be9429a339d2f45b7ff092332f6c19dc39"
+      },
+      {
+        "file": "org.jetbrains.kotlinx--kotlinx-coroutines-core-jvm-1.11.0-sources.jar",
+        "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.11.0/kotlinx-coroutines-core-jvm-1.11.0-sources.jar",
+        "sha256": "3e0847c0b463965404d5b6fe5d6868000a220b050180dec68501801e9439976a"
+      }
+    ]
+  },
+  {
+    "coordinate": "org.jspecify:jspecify:1.0.0",
+    "files": [
+      {
+        "file": "org.jspecify--jspecify-1.0.0.pom",
+        "url": "https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.pom",
+        "sha256": "cdab929a3b95211f43d2090c5e2d0dfe8465960e378bc32b35841dab324433a6"
+      },
+      {
+        "file": "org.jspecify--jspecify-1.0.0-sources.jar",
+        "url": "https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0-sources.jar",
+        "sha256": "adf0898191d55937fb3192ba971826f4f294292c4a960740f3c27310e7b70296"
+      }
+    ]
+  },
+  {
+    "coordinate": "org.lsposed.hiddenapibypass:hiddenapibypass:6.1",
+    "files": [
+      {
+        "file": "org.lsposed.hiddenapibypass--hiddenapibypass-6.1.pom",
+        "url": "https://repo.maven.apache.org/maven2/org/lsposed/hiddenapibypass/hiddenapibypass/6.1/hiddenapibypass-6.1.pom",
+        "sha256": "55109914ea9c6ef31c903198e9af0b671be208412a1539bfab025ff47d9f9597"
+      },
+      {
+        "file": "org.lsposed.hiddenapibypass--hiddenapibypass-6.1-sources.jar",
+        "url": "https://repo.maven.apache.org/maven2/org/lsposed/hiddenapibypass/hiddenapibypass/6.1/hiddenapibypass-6.1-sources.jar",
+        "sha256": "3da76de7a8a84f2b078461770e9804681c2e25e3a2c482ed84f819530340a801"
+      }
+    ]
+  }
+]

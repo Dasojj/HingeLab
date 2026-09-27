@@ -1,0 +1,21 @@
+.gradle/
+.kotlin/
+**/build/
+local.properties
+.idea/
+*.iml
+*.apk
+*.jks
+*.keystore
+*.log
+
+# Local tooling, working notes and publication drafts are not product sources.
+.codex/
+.claude/
+.cursor/
+AGENTS.md
+CLAUDE.md
+publication/
+PUBLICATION_NEXT_STEPS.md
+OVERLAY_STATUS.md
+docs/README_HISTORY.md

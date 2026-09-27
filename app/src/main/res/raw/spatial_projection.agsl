@@ -1,0 +1,116 @@
+// Pinhole projection and depth-dependent frost for the moving display plane.
+// Experimental fixed-plane branch adapted from iPhone Duo Fold Preview,
+// copyright (c) 2026 jadon7, MIT; assets/licenses/iPhone-Duo-reference-MIT.txt.
+uniform shader content;
+uniform float2 resolution;
+uniform float tiltDegrees;
+uniform float eyeDistancePx;
+uniform float hingePos;
+uniform float eyeX;
+uniform float axisSwap;
+uniform float paneSide;
+uniform float blurSpread;
+uniform float boundedInner;
+uniform float softInner;
+uniform float perspectiveWindow;
+
+const float GOLDEN_ANGLE = 2.39996322972865332;
+const float TWO_PI = 6.28318530717958648;
+
+half4 main(float2 fragCoord) {
+    if (resolution.x <= 1.0 || resolution.y <= 1.0) {
+        return content.eval(fragCoord);
+    }
+    float tilt = radians(clamp(tiltDegrees, 0.0, mix(89.5, 65.0, boundedInner)));
+    if (tilt < 1e-4) {
+        return content.eval(fragCoord);
+    }
+
+    float2 p = mix(fragCoord, fragCoord.yx, axisSwap);
+    float2 size = mix(resolution, resolution.yx, axisSwap);
+    float side = mix(-1.0, 1.0, step(hingePos, p.x));
+    if (paneSide * side < -0.5) {
+        return content.eval(fragCoord);
+    }
+    float d = abs(p.x - hingePos);
+    if (perspectiveWindow > 0.5) {
+        // A rotating screen is a window onto a fixed reference image plane.
+        // Project each screen point back onto that plane, rather than rotating
+        // the image itself. Blur never participates in this coordinate mapping.
+        float extent = side > 0.0 ? size.x - hingePos : hingePos;
+        float distance = max(eyeDistancePx, size.x);
+        float depth = distance - d * sin(tilt);
+        if (depth <= 0.001) return half4(0.0, 0.0, 0.0, 1.0);
+        float2 referenceEye = float2(eyeX, size.y * 0.5);
+        float2 screenPoint = float2(hingePos + side * d * cos(tilt), p.y);
+        float2 sourcePoint = referenceEye + (screenPoint - referenceEye) * (distance / depth);
+        float imageProgress = clamp(side * (sourcePoint.x - hingePos) / max(extent, 1.0), 0.0, 1.0);
+        float motion = smoothstep(0.0, 1.0, tiltDegrees / 90.0);
+        // Blur/darkening live in image coordinates, independently of projection.
+        float radius = min(size.x, size.y) * 0.045 * motion * pow(imageProgress, 1.35);
+        float shade = 1.0 - min(1.0, 2.0 * motion * pow(clamp((imageProgress - 0.2) / 0.8, 0.0, 1.0), 1.35));
+        half3 color = half3(0.0);
+        float weights = 0.0;
+        float lower = side > 0.0 ? hingePos : 0.0;
+        float upper = side > 0.0 ? size.x : hingePos;
+        for (int y = -2; y <= 2; y++) {
+            for (int x = -2; x <= 2; x++) {
+                float weight = exp(-0.5 * float(x*x + y*y));
+                float2 samplePoint = sourcePoint + float2(float(x), float(y)) * radius * 0.5;
+                float feather = max(0.75, radius * 0.3);
+                float coverage = smoothstep(lower - feather, lower + feather, samplePoint.x)
+                    * (1.0 - smoothstep(upper - feather, upper + feather, samplePoint.x))
+                    * smoothstep(-feather, feather, samplePoint.y)
+                    * (1.0 - smoothstep(size.y - feather, size.y + feather, samplePoint.y));
+                samplePoint = clamp(samplePoint, float2(lower + 0.5, 0.5), float2(upper - 0.5, size.y - 0.5));
+                color += content.eval(mix(samplePoint, samplePoint.yx, axisSwap)).rgb * half(weight * coverage);
+                weights += weight;
+            }
+        }
+        return half4(color / half(weights) * half(shade), 1.0);
+    }
+    float2 glass = float2(hingePos + side * d * cos(tilt), p.y);
+    float gap = d * sin(tilt);
+    float2 eye = float2(eyeX, size.y * 0.5);
+    float depth = eyeDistancePx - gap;
+    if (depth <= 1e-3) {
+        return half4(0.0, 0.0, 0.0, 1.0);
+    }
+    float2 hitS = eye + (glass - eye) * (eyeDistancePx / depth);
+    if (boundedInner > 0.5 || softInner > 0.5) {
+        // Artistic handoff: normalize the perspective to the full source pane.
+        // Both horizontal endpoints remain visible instead of sampling only a
+        // narrow strip near the hinge. The cover keeps the original projection.
+        float extent = side > 0.0 ? size.x - hingePos : hingePos;
+        float endDepth = max(eyeDistancePx - extent * sin(tilt), 1.0);
+        float endHit = eyeX + (hingePos + side * extent * cos(tilt) - eyeX) * eyeDistancePx / endDepth;
+        float fraction = clamp((hitS.x - hingePos) / (endHit - hingePos), 0.0, 1.0);
+        float2 contained = float2(hingePos + side * extent * fraction, p.y);
+        // Keep perspective and off-screen motion; only soften its extreme stretch.
+        hitS = mix(hitS, contained, boundedInner > 0.5 ? 1.0 : 0.28);
+    }
+    float radius = blurSpread * gap;
+    if (hitS.x < -radius || hitS.y < -radius ||
+        hitS.x > size.x + radius || hitS.y > size.y + radius) {
+        return half4(0.0, 0.0, 0.0, 1.0);
+    }
+    float2 hit = mix(hitS, hitS.yx, axisSwap);
+    if (radius < 0.5) {
+        return half4(content.eval(hit).rgb, 1.0);
+    }
+
+    float tapsF = clamp(radius * 2.0, 6.0, 32.0);
+    float rotation = fract(sin(dot(fragCoord, float2(12.9898, 78.233))) * 43758.5453) * TWO_PI;
+    half3 sum = half3(0.0);
+    float wsum = 0.0;
+    for (int i = 0; i < 32; i++) {
+        float fi = float(i);
+        float w = 1.0 - step(tapsF, fi);
+        float r = radius * sqrt((fi + 0.5) / tapsF);
+        float a = fi * GOLDEN_ANGLE + rotation;
+        sum += content.eval(hit + r * float2(cos(a), sin(a))).rgb * half(w);
+        wsum += w;
+    }
+    half3 avg = sum / half(max(wsum, 1.0));
+    return half4(avg, 1.0);
+}
