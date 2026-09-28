@@ -8,6 +8,12 @@
 
 **История исследования на Хабре:** [Анимация iPhone Duo на Galaxy Fold: от красивой демки до работающего приложения](https://habr.com/ru/articles/1087304/). Гипотезы, эксперименты, устройство анимации и оставшиеся ограничения.
 
+## Видео на реальном устройстве
+
+<video src="https://github.com/Dasojj/HingeLab/raw/refs/heads/main/docs/assets/hingelab-real-fold-demo.mp4" poster="https://github.com/Dasojj/HingeLab/raw/refs/heads/main/docs/assets/hingelab-real-fold-preview.jpg" controls="controls" muted="muted" playsinline="playsinline" width="720"></video>
+
+Раскрытие, складывание и повторный переход на Samsung Fold. Запись без ускорения и вырезания системного мигания. [Скачать видео](docs/assets/hingelab-real-fold-demo.mp4).
+
 ## Два раздела
 
 - **Анимация:** настройка телефона, запуск помощника и большая кнопка постоянного включения эффекта. Остановка доступна в приложении и уведомлении.
