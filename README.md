@@ -10,9 +10,9 @@
 
 ## Видео на реальном устройстве
 
-<video src="https://github.com/Dasojj/HingeLab/raw/refs/heads/main/docs/assets/hingelab-real-fold-demo.mp4" poster="https://github.com/Dasojj/HingeLab/raw/refs/heads/main/docs/assets/hingelab-real-fold-preview.jpg" controls="controls" muted="muted" playsinline="playsinline" width="720"></video>
+![Hinge Lab: раскрытие, складывание и повторный переход на реальном Samsung Fold](docs/assets/hingelab-real-fold-demo.gif)
 
-Раскрытие, складывание и повторный переход на Samsung Fold. Запись без ускорения и вырезания системного мигания. [Скачать видео](docs/assets/hingelab-real-fold-demo.mp4).
+Раскрытие, складывание и повторный переход на Samsung Fold. Запись без ускорения и вырезания системного мигания; выше — GIF-превью. [Видео MP4 в полном качестве](https://github.com/Dasojj/HingeLab/raw/refs/heads/main/docs/assets/hingelab-real-fold-demo.mp4).
 
 ## Два раздела
 
