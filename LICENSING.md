@@ -1,6 +1,6 @@
 # Licensing
 
-Copyright (C) 2026 Kirill (Dasojj) and Hinge Lab contributors.
+Copyright (C) 2026 dasoj and Hinge Lab contributors.
 
 Except for third-party material identified below or in individual files, Hinge Lab
 is licensed under the GNU General Public License, version 3 only

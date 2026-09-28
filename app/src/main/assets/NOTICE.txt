@@ -33,7 +33,7 @@ WRITE_SECURE_SETTINGS. После успешной автоматической 
 Runtime-зависимости включают Kadb/Kadb mDNS 2.1.4, Kotlin/coroutines, AndroidX,
 Okio, HiddenApiBypass, JSpecify, Bouncy Castle, Elisabeth и SPAKE2-Java 1.1.1.
 SPAKE2-Java имеет лицензию GPL-3.0. Hinge Lab распространяется по GNU GPL версии 3
-(GPL-3.0-only), без гарантий. Copyright (C) 2026 Kirill (Dasojj) и участники проекта.
+(GPL-3.0-only), без гарантий. Copyright (C) 2026 dasoj и участники проекта.
 Полные лицензии и перечень компонентов доступны по кнопке «Полные лицензии».
 Исходники: https://github.com/Dasojj/HingeLab
 APK сопровождается доступом к соответствующим исходникам и материалам сборки.
